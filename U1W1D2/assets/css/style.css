@@ -5,3 +5,22 @@ table {
 th, td, caption {
     border: 1px solid black;
 }
+
+tfoot td {
+    text-align: center;
+}
+
+.container section {
+    display: inline-block;
+    width: 48%;
+}
+
+.container section:last-child {
+    display: block;
+    width: 100%;
+}
+
+.evidence {
+    color: red;
+    font-weight: bold;
+}
