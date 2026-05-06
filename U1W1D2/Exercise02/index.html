@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Rossi — Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mario Rossi</h1>
+        <p><strong>Studente Full Stack</strong> — corso Epicode 2026</p>
+        <nav>
+            <ul>
+                <li><a href="#chi-sono">Chi sono</a></li>
+                <li><a href="#competenze">Competenze</a></li>
+                <li><a href="#esperienze">Esperienze</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="chi-sono">
+            <h2>Chi sono</h2>
+            
+            <figure>
+                <img src="https://placehold.co/200x200" alt="Foto profilo di Mario Rossi">
+                <figcaption>Foto profilo professionale</figcaption>
+            </figure>
+
+            <aside>
+                <p><strong>Curiosità:</strong> Amo il trekking e la fotografia analogica, passioni che mi insegnano la pazienza e l'attenzione ai dettagli.</p>
+            </aside>
+
+            <p>Mi chiamo Mario Rossi e sto imparando a programmare. Studio sviluppo web con <strong>Epicode</strong> e ogni giorno aggiungo qualcosa a questa pagina.</p>
+            <p>Vivo a Milano. Ho una formazione precedente in <em>lettere</em> e ora sto cambiando settore. Cerco un primo ruolo come sviluppatore frontend.</p>
+        </section>
+
+        <section id="competenze">
+            <h2>Competenze</h2>
+            <p>Le tecnologie che vedo durante le prime settimane di corso.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git e GitHub</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </section>
+
+        <section id="esperienze">
+            <h2>Esperienze</h2>
+            <p>Un riepilogo del mio percorso formativo e lavorativo recente.</p>
+            
+            <table>
+                <caption>Cronologia delle esperienze</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Anno</th>
+                        <th scope="col">Ruolo</th>
+                        <th scope="col">Azienda / Scuola</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026</td>
+                        <td>Studente Full Stack</td>
+                        <td>Epicode</td>
+                    </tr>
+                    <tr>
+                        <td>2024 - 2025</td>
+                        <td>Libraio</td>
+                        <td>Libreria Centrale, Milano</td>
+                    </tr>
+                    <tr>
+                        <td>2018 - 2022</td>
+                        <td>Studente di Lettere</td>
+                        <td>Università degli Studi di Milano</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="progetti">
+            <h2>Progetti</h2>
+            <p>I lavori fatti durante le prime settimane di corso.</p>
+
+            <article>
+                <h3>Pagina ricetta</h3>
+                <p>Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un contenuto reale.</p>
+                <a href="javascript:void(0);" target="_blank">Vedi su GitHub</a>
+            </article>
+
+            <article>
+                <h3>Card di presentazione</h3>
+                <p>Un biglietto digitale con nome, ruolo e link ai social.</p>
+                <a href="javascript:void(0);" target="_blank">Vedi su GitHub</a>
+            </article>
+        </section>
+
+        <section id="contatti">
+            <h2>Contattami</h2>
+            <p>Compila il form per scrivermi. Ti rispondo entro 24 ore.</p>
+
+            <form action="#" method="POST">
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="tu@esempio.it" required>
+                </div>
+                <br>
+                <div>
+                    <label for="motivo">Motivo del contatto</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="lavoro">Proposta di lavoro</option>
+                        <option value="collaborazione">Collaborazione</option>
+                        <option value="info">Richiesta informazioni</option>
+                        <option value="saluto">Solo un saluto</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="data">Data preferita per la risposta</label><br>
+                    <input type="date" id="data" name="data">
+                </div>
+                <br>
+                <div>
+                    <label for="messaggio">Messaggio</label><br>
+                    <textarea id="messaggio" name="messaggio" rows="5" placeholder="Scrivi qui il tuo messaggio..." required></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">Accetto di essere ricontattato all'indirizzo indicato</label>
+                </div>
+                <br>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mario Rossi</p>
+    </footer>
+
+</body>
+</html>
