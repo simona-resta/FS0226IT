@@ -1,3 +1,71 @@
+/* Regola generale sull'h1 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+	font-family: 'MyFont';
+	src: url(../fonts/AlQalamKhateSunbali.woff) format(woff);
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 h1 {
-    color: red;
+	color: #d60076;
+}
+
+input:focus {
+	border-color: blue;
+	background-color: darkgray;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: aqua;
+}
+
+.image {
+	width: 50vw;
+}
+
+.image img {
+	width: 50%;
+}
+
+.image img:hover {
+	width: 100%;
+}
+
+a:link,
+a:visited {
+	color: white;
+	background-color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background-color: greenyellow;
+	text-decoration: underline;
+}
+
+form {
+	height: 200px;
+	/* width: 50%; */
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 100px;
+	background-image: url(https://content.pexels.com/aigc-bundle/images/d0d6e972-d143-4743-b71f-18cd7e0ff22a.jpg);
+	background-size: contain;
+	background-position: center;
+	background-attachment: fixed;
 }
